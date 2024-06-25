@@ -1,8 +1,10 @@
 ## P1
 
-这张图片介绍了“尺蠖原理”（Inchworm Principle），用于解释“粘-滑”运动机制，通常由推挽执行器（pile/staple actuators）完成。
+### “尺蠖原理”（Inchworm Principle）
 
-### 粘-滑运动描述：
+用于解释“粘-滑”运动机制，通常由推挽执行器（pile/staple actuators）完成。
+
+#### 粘-滑运动描述：
 
 1. **电静力或压电夹具**：
    - 将工作物体固定在一定位置。
@@ -14,7 +16,7 @@
    - **粘着阶段（stick）**：夹具卡住、固定。
    - **滑动阶段（slip）**：通过压电位移使工作物体移动。
 
-### 过程步骤：
+#### 过程步骤：
 
 1. **初始状态**：
    - 左侧夹具固定（粘）。
@@ -26,53 +28,18 @@
 3. **交换粘-滑**：
    - 顺序交换左、右夹具的状态（粘或滑）以产生连续运动。
 
-这张幻灯片中还特别强调了这种运动机制主要通过推挽执行器来实现。
-
----
-
-The slide explains the "Inchworm Principle," used to describe the "stick and slip" motion, usually carried out by pile/staple actuators.
-
-### Stick-Slip Motion Description:
-
-1. **Electrostatic or Piezo Clamp**:
-   - Holds the workpiece in position.
-
-2. **Displacement through Piezo**:
-   - Use a piezoelectric element (PZT) to generate displacement.
-
-### Motion Stages:
-
-- **Stick Stage**:
-  - Clamps grip (stick).
-- **Slip Stage**:
-  - Via piezo displacement, the workpiece moves (slip).
-
-### Process Steps:
-
-1. **Initial State**:
-   - Left clamp holds (stick).
-   - Right clamp is relaxed (slip).
-
-2. **Displacement Action**:
-   - Piezo element extends or contracts, causing middle section to move.
-
-3. **Exchange Stick-Slip**:
-   - Sequentially exchange the left and right clamps' states (stick or slip) to produce continuous motion.
-
-The slide also emphasizes that this motion mechanism is primarily achieved through pile/staple actuators.
-
 ---
 
 ## P2
 
-这张图片描述了压电尺蠖（Piezo Inchworm）运动的工作原理。各个组件和步骤如下：
+### 压电尺蠖（Piezo Inchworm）
 
-### 组件说明：
+#### 组件说明：
 - **LCA**: 左夹具执行器（Left Clamping Actuators）
 - **RCA**: 右夹具执行器（Right Clamping Actuators）
 - **LPV**: 纵向压电振动器（Longitudinal Piezoelectric Vibrator）
 
-### 运动步骤：
+#### 运动步骤：
 1. **初始状态**：
    - 左夹具（LCA）和右夹具（RCA）都固定着物体。
    
@@ -100,20 +67,22 @@ The slide also emphasizes that this motion mechanism is primarily achieved throu
 
 ## P42
 
-这张幻灯片解释了自适应光学（Adaptive Optics）技术的起源动机，主要表现在望远镜和显微镜的成像中遇到的问题。
+### 自适应光学（Adaptive Optics）技术的起源动机
 
-### 动机描述：
+主要表现在望远镜和显微镜的成像中遇到的问题。
+
+#### 动机描述：
 1. **望远镜**：
    - 成像质量受到大气密度波动的限制：温度分布的时变（100 Hz - 1 kHz）变化。
 
 2. **显微镜**：
    - 组织中的密度变化引入波形畸变。
 
-### 两种情况下的结果：
+#### 两种情况下的结果：
 - **折射率变化**（Refractive index changes）
 - **需要进行校正**（Correction necessary）
 
-### 插图说明：
+#### 插图说明：
 - **左下角插图内容**：
   - (a) 表示理想情况下，光学元件如何聚焦光线。
   - (b) 当折射率变化时（例如从 n1 到 n2），光线路径发生变化，导致成像失真。
@@ -135,9 +104,9 @@ The slide also emphasizes that this motion mechanism is primarily achieved throu
 
 ## P43
 
-这张幻灯片展示了Shack-Hartmann波前传感器的原理，用于检测和测量波前畸变。
+### Shack-Hartmann波前传感器的原理
 
-### 主要内容：
+用于检测和测量波前畸变。
 
 #### 原理：
 - **相机 + 微透镜阵列**: 这是一种在相机上安装微透镜阵列的波前传感器。
@@ -157,7 +126,7 @@ The slide also emphasizes that this motion mechanism is primarily achieved throu
 #### 权衡：
 - **空间分辨率与可检测波前幅度的权衡**：高空间分辨率有助于精细测量，但可能降低对大幅度波前畸变的检测能力。
 
-### 最右侧插图：
+#### 最右侧插图：
 - 显示了单个透镜如何将波前上的畸变光线聚焦到不同的位置，通过测量这些位置差异（dx）和角度（α）来确定波前的形态。
 
 通过这些原理和方法，Shack-Hartmann波前传感器可以精确测量并校正光学系统中的波前畸变，广泛应用于天文学、自适应光学和光学测量领域。
@@ -166,9 +135,8 @@ The slide also emphasizes that this motion mechanism is primarily achieved throu
 
 ## P44
 
-这张幻灯片展示了望远镜中主要和次要镜面的照片，强调了一些设计方面的重要点：
+### 望远镜中主要和次要镜面的照片
 
-### 主要内容：
 1. **Primary Mirror（主镜）**：
    - 主镜是望远镜中最大的镜面，通常由多个小镜片拼接而成，如照片中所示的蜂窝状结构。
    - 主镜负责收集和聚焦来自远处天体的光线。
@@ -177,12 +145,12 @@ The slide also emphasizes that this motion mechanism is primarily achieved throu
    - 次镜较小，位于主镜的焦点附近，进一步调整和将光线传导到探测仪器。
    - 次镜通常悬挂在主镜上方，如照片中所示的结构。
 
-### 重要说明：
+#### 重要说明：
 - **Actuators always hidden behind mirror!（执行器总是隐藏在镜子后面！）**：
   - 为了不影响光学性能及结构美观，调整主镜和次镜形状和位置的执行器通常都置于镜面背后。
   - 这些执行器在精确调节镜面，提高成像质量和修正光学畸变中起着关键作用。
 
-### 图像来源：
+#### 图像来源：
 - 左图（Primary Mirror）：来源于哈斯尔·埃根娜维克的作品，展示了一个由多个六边形镜片组成的望远镜主镜。
 - 右图（Secondary Mirror）：由ESO/E. Vernet提供的图片，展示了一个望远镜次镜的结构和布局。
 
@@ -192,9 +160,9 @@ The slide also emphasizes that this motion mechanism is primarily achieved throu
 
 ## P45
 
-这张幻灯片介绍了压电微镜（Piezoelectric Micro Mirrors）的结构和特点，同时指出了其操作上的一个缺点。
+### 压电微镜（Piezoelectric Micro Mirrors）
 
-### 主要内容：
+结构和特点，同时指出了其操作上的一个缺点。
 
 #### 压电微镜特点：
 - **19个部分旋转对称电极**：这意味着这些电极部分对称分布在镜面上，使反射面能够进行精细调整。
@@ -213,15 +181,15 @@ The slide also emphasizes that this motion mechanism is primarily achieved throu
 - **Drawback（缺点）**：
   - **需要很多电极来控制较低阶的波前校准**：尽管该设计在一些波前校正中有效，但要实现精细和高阶校准，仍需要很多电极，这增加了控制的复杂性。
 
-通过详细展示压电微镜的结构图和变形图，这页幻灯片清晰地阐释了该技术的实现原理以及实际应用中的挑战。
+通过详细展示压电微镜的结构图和变形图，清晰地阐释了该技术的实现原理以及实际应用中的挑战。
 
 ---
 
 ## P46
 
-这张幻灯片讨论了压电微镜在校正典型光学像差时的表现，通过几种常见波前像差的校正示例来展示其功能和限制。
+### 压电微镜
 
-### 主要内容：
+在校正典型光学像差时的表现，通过几种常见波前像差的校正示例来展示其功能和限制。
 
 #### 常见像差及其校正：
 
@@ -241,10 +209,10 @@ The slide also emphasizes that this motion mechanism is primarily achieved throu
    - 左下角展示了另一种较高阶的波前异常（Zernike Polynomial \(Z_6=\sqrt{8}\rho^3 \sin 3\theta\)）及其校正效果。
    - 这种畸变比较复杂，校正效果较为有限。
 
-### 缺点：
+#### 缺点：
 - **需要很多电极来控制较低阶的波前校准**：尽管压电微镜在各种波前畸变校正上显示出一定的效果，但由于需要控制的电极数量众多，操作复杂性高，尤其是对于低阶畸变的校正。
 
-### 总结：
+#### 总结：
 - 压电微镜在光学像差校正方面有一定潜力，但其控制复杂性限制了其应用空间。校正效果展示了对于不同像差类型的适应能力，同时强调了多电极控制的挑战。
 
 通过这些校正示例，理解压电微镜在准确控制和改善光学性能中的应用可能性和实际复杂性。
@@ -253,9 +221,9 @@ The slide also emphasizes that this motion mechanism is primarily achieved throu
 
 ## P47
 
-这张幻灯片介绍了用于激光应用的自适应镜面（Adaptive Mirror），特别强调了水冷散热和执行器设计的相关内容。
+### 用于激光应用的自适应镜面（Adaptive Mirror）
 
-### 主要内容：
+特别强调了水冷散热和执行器设计的相关内容。
 
 #### 自适应镜面的设计：
 - **执行器围绕着镜子**：自适应镜面安装有围绕镜面的执行器，这些执行器用于精确调整镜面的形状，以优化光纤耦合和波前校正。
@@ -277,53 +245,23 @@ The slide also emphasizes that this motion mechanism is primarily achieved throu
 #### 实验结果：
 - 右下角的3D图显示了激活状态下镜面的变形情况，在50V电压下不同区域的位移示意图，展示了校正的结果。
 
-### 总结与来源：
+#### 总结与来源：
 - 通过引入水冷技术和精细的电极图案设计，自适应镜面在处理高功率激光时表现出更高的稳定性和校正能力。
 - 该研究的来源：Zhengxiong Zhu等人发表在《Opt. Express》上的研究论文“Development of a unimorph deformable mirror with water cooling”，展示了该技术的具体实现和实验结果。
 
-通过这张幻灯片，可以清晰地看到水冷自适应镜面的设计和工作机制，以及它在激光应用中的优势。
+可以清晰地看到水冷自适应镜面的设计和工作机制，以及它在激光应用中的优势。
 
 ---
 
 ## P48
 
-这张幻灯片介绍了用于激光应用的自适应镜面（Adaptive Mirror），特别强调了水冷散热和执行器设计的相关内容。
-
-### 主要内容：
-
-#### 自适应镜面的设计：
-- **执行器围绕着镜子**：自适应镜面安装有围绕镜面的执行器，这些执行器用于精确调整镜面的形状，以优化光纤耦合和波前校正。
-
-#### 水冷散热技术：
-- **左侧插图（Fig. 1）**：
-  - 展示了一个水冷的一体式可变形镜面的截面视图。
-  - **冷却输入和输出**：冷却流体从冷却输入端进入，通过冷却腔（Cooling cavity）进行热量交换，最终从冷却输出端排出。
-  - 分层结构包括固定基座（Fixed base）、图案化电极（Patterned Electrode）、校正区域（Correcting area），以及不同材料层（如PZT、Si和底电极（Bottom electrode））。
-
-- **中间和右侧插图（Fig. 8）**：
-  - 展示了制造出的水冷镜面（左图a）和封装后的镜面（右图b）的实际照片。
-  - 使用不同大小的校正区域（10mm、6mm、4mm），以适应各种应用需求。
-
-#### 冷却机制的优点：
-- **提升高功率激光的性能**：
-  - 通过主动冷却技术，能够有效改善在高功率激光应用中的性能，防止镜面因激光热效应导致的变形和损伤。
-
-#### 实验结果：
-- 右下角的3D图显示了激活状态下镜面的变形情况，在50V电压下不同区域的位移示意图，展示了校正的结果。
-
-### 总结与来源：
-- 通过引入水冷技术和精细的电极图案设计，自适应镜面在处理高功率激光时表现出更高的稳定性和校正能力。
-- 该研究的来源：Zhengxiong Zhu等人发表在《Opt. Express》上的研究论文“Development of a unimorph deformable mirror with water cooling”，展示了该技术的具体实现和实验结果。
-
-通过这张幻灯片，可以清晰地看到水冷自适应镜面的设计和工作机制，以及它在激光应用中的优势。
-
 ---
 
 ## P49
 
-这张幻灯片探讨了常见像差的重构，通过重构这些像差来达到校正的目的。
+### 常见像差的重构
 
-### 主要内容：
+通过重构这些像差来达到校正的目的。
 
 #### 重构常见像差的理念：
 - **概念**：如果能够重构常见的光学像差，那么我们就可以反向校正这些像差。
@@ -377,19 +315,19 @@ The slide also emphasizes that this motion mechanism is primarily achieved throu
 
 如此精细的重构结果表明，通过精确调整压电微镜的形状，可以有效重构并反向校正这些常见的光学像差。
 
-### 总结：
+#### 总结：
 - 通过实验数据的展示，可以看出压电微镜在重构常见光学像差方面的高精度表现，从而证明其在光学系统中的校正能力。
 - 误差分析表明，虽然仍然存在微小误差，但总体上重构效果与目标非常接近，表明该系统在高精度校正中的潜力。
 
-通过这张幻灯片，演示了压电微镜在光学像差校正中的实际应用，并证明了其高精度重构的能力。
+演示了压电微镜在光学像差校正中的实际应用，并证明了其高精度重构的能力。
 
 ---
 
 ## P50
 
-这张幻灯片讨论了具有可调偏心率（Tunable Eccentricity）的聚焦镜，用于优化焦距和入射角度校正，特别是在离轴聚焦（Off-Axis Focusing）中的应用。
+### 具有可调偏心率（Tunable Eccentricity）的聚焦镜
 
-### 主要内容：
+用于优化焦距和入射角度校正，特别是在离轴聚焦（Off-Axis Focusing）中的应用。
 
 #### 使用镜子的优点：
 1. **聚焦：无色差，快速**：使用镜子进行聚焦可以避免色差，并且反应迅速。
@@ -407,11 +345,11 @@ The slide also emphasizes that this motion mechanism is primarily achieved throu
    - **偏心率（Eccentricity）**：使用具有可调偏心率的椭圆抛物面来解决离轴聚焦的问题。偏心率公式为 \( \frac{a}{b} \)，其中 \( a \) 和 \( b \) 是椭圆的半长轴和半短轴。
    - **图示**：展示了偏心椭圆抛物面的三维形状，显示如何通过调整其偏心率来实现离轴聚焦。
 
-### 结论：
+#### 结论：
 - **偏心率调节的优点**：椭圆抛物面镜通过调节偏心率，可以高效地补偿入射光的角度偏差，提升光学系统在离轴聚焦中的性能。
 - **实际应用**：这种设计在需要快速、精确聚焦并具有灵活入射角度校正能力的高性能光学系统中具有潜在的应用价值。
 
-这张幻灯片通过介绍压电元件的形变及其在聚焦系统中的应用，展示了通过优化椭圆抛物面镜的偏心率来实现高效离轴光束聚焦的方法。
+通过介绍压电元件的形变及其在聚焦系统中的应用，展示了通过优化椭圆抛物面镜的偏心率来实现高效离轴光束聚焦的方法。
 
 ---
 
@@ -421,9 +359,9 @@ The slide also emphasizes that this motion mechanism is primarily achieved throu
 
 ## P60
 
-这张幻灯片展示了一种由压电驱动的锥形镜（Axicon），该设计具有灵活的自由旋转和预变形特性。
+### 由压电驱动的锥形镜（Axicon）
 
-### 主要内容：
+该设计具有灵活的自由旋转和预变形特性。
 
 #### 锥形镜的结构：
 1. **硅镜面（Silicon Mirror）**：主要反射器材质为硅。
@@ -448,10 +386,7 @@ The slide also emphasizes that this motion mechanism is primarily achieved throu
 #### 电压应用和预变形：
 - 施加400V电压时，压电元件发生形变，使得反射镜达到期望的形态，从而实现精确的光束控制。
 
-### 参考文献：
-- 图中的设计与实验结果来自J. Brunne等人的论文《Optics Letters 39，no.15（2014），pp. 4631-4634》。
-
-### 结论：
+#### 结论：
 - 这种设计通过压电驱动，实现了锥形镜在高效光束控制中的自由旋转和预变形调节能力。
 - 设计中弹性支撑环和预变形组装的结合，使得系统在运行中的灵活性和精确性得到了提高。
 
@@ -461,9 +396,7 @@ The slide also emphasizes that this motion mechanism is primarily achieved throu
 
 ## P61
 
-这张幻灯片介绍了通过局部电势来实现锥形轮廓的方法。
-
-### 主要内容：
+### 通过局部电势来实现锥形轮廓的方法
 
 #### 圆环图案电极（Ring Patterned Electrodes on Piezo）：
 1. **圆环图案电极**：压电片上印刷有圆环图案的电极，用以实现精确的电场控制。
@@ -485,7 +418,7 @@ The slide also emphasizes that this motion mechanism is primarily achieved throu
    - 右图：展示了半径为2毫米的圆环电极的结构，标注了电气连接、绝缘沟槽及焊盘位置。
    - 左图：放大部分，显示一个微小的局部电极细节。
 
-### 结论：
+#### 结论：
 - **通过局部电势控制形成锥形镜**：通过调节压电盘上的局部电势，可实现镜面的精确控制，形成理想的锥形轮廓。
 - **电极结构的优化设计**：圆环图案电极提供了一种灵活的方法，可以通过局部电势的调节，改变镜面的形状。
 
